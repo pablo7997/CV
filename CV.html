@@ -5,38 +5,78 @@
     <title>Pablo Hidalgo García</title>
     <link rel="stylesheet" href="CV.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">  </head>
-  <body>
+  <body class="cuerpo">
+    <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50">
+        <source src="video5CV.mp4" type="video/mp4" />
+     </video>
     <div class="main-wrapper">
       <div class="info-container">
         <div>
-         <img src="https://via.placeholder.com/200x250" alt="Foto">
+         <img src="yoreal.jpg" class="fotografia" alt="Foto">
         </div>
         <div class="personal-info">
           <div>
             <h1>Pablo Hidalgo García</h1>
-            <h2>Geógrafo</h2>
+            <h2>Geógrafo y en proceso de ser Técnico GIS</h2>
             <hr>
           </div>
           <div class="table-info">
-            <p style="color: rgb(243, 171, 171);">Amante de la Geografía y con muchas ganas de seguir aprendiendo</p>
+            <p style="color: rgb(22, 175, 168);">Amante de la Geografía y con muchas ganas de seguir aprendiendo</p>
             <p>Edad: 23 años</p>
             <p>Origen: Algeciras(Cádiz), España</p>
           </div>
         </div>
       </div>
       <div>
-        <h2>Experiencia</h2>
-        <p>Prácticas del grado universitario: Investigación sociodemográfica en la UMA.</p>
+        <a style="cursor: pointer;" onclick="myfunction('a')" class="experiencia">Experiencia</a>
+        <p id="a" class="fondo">Prácticas del grado universitario: Investigación sociodemográfica en la Universidad de Málaga.</p>
         <div></div>
       </div>
-      <div>
-        <h2>Formación</h2>
-        <p>Grado de Geografía y Gestión del Territorio</p>
-        <p>Bachillerato de Ciencias Tecnológicas</p>
-        <p>Cursos oficiales de cartografía: Especialista en ArcMap, ArcGis Pro y Qgis</p>
-        <p>MasterGis ESRI Presencial (en formación)</p>
-        <p>Nivel de Inglés: B2</p>
-        <div></div>
+        <a style="cursor: pointer;" onclick="myfunction('b')" class="formacion">Formación</a>
+        <div id="b" class="fondo">
+        <p>Grado de Geografía y Gestión del Territorio en la Universidad de Málaga.</p>
+        <p>Bachillerato de Ciencias Tecnológicas.</p>
+        <p>Cursos oficiales de cartografía: Especialista en ArcMap, ArcGis Pro y Qgis.</p>
+        <p>MasterGis ESRI Presencial (en formación).</p>
+        <p>Nivel de Inglés: B2.</p>
+        </div>
+        <div>
+            <a style="cursor: pointer;" onclick="myfunction('c')" class="aptitudes">Aptitudes</a>
+            <div id="c" class="fondo">
+            <p>Conocimientos de programación: Python, JavaScript y HTML.</p>
+            <p>Conocimientos de GIS: ArcMap, ArcGis Pro y QGIS.</p>
+            <p>Conocimientos de teledetección: ErMapper.</p>
+            <p>Conocimientos de Office.</p>
+            <p>Especialista en Demografía.</p>
+                </div>
+        </div>
+        <div>
+            <a style="cursor: pointer;" onclick="myfunction('d')" class="investigaciones">Investigaciones</a>
+            <div id="d" class="fondo">
+            <p>Trabajo de Investigación en la Universidad de Málaga: La Vulnerabilidad Demográfica en el Área Metropolitana de Málaga a nivel de Secciones Censales.</p>
+            <p>Trabajo de Investigación en la Universidad de Málaga: Los recursos del municipio de Villanueva de Algaidas.</p>
+            <p>Trabajo de Investigación en la Universidad de Málaga: Las Infraestructuras Sanitarias en Uganda.</p>
+            <p>Trabajo de Investigación en la Universidad de Málaga: El turismo en Malawi.</p>
+            <p>Trabajo de Investigación en la Universidad de Málaga: La Evolución del Sector Industrial en España .</p>
+            </div>
+        </div>
+        <div>
+            <a style="cursor: pointer;" onclick="myfunction('e')" class="actitudes">Actitudes</a>
+            <div id="e" class="fondo">
+            <p>Persona trabajadora con muchas ganas de aprender en el dia a dia más.</p>
+            <p>Ambicioso y emprendedor.</p>
+            <p>Buena presencia física.</p>
+            <p>Don de gente, facilidad para relacionar con otras personas en cualquier tipo de ámbito GIS.</p>
+            </div>
+        </div>
+        <div>
+            <a style="cursor: pointer;" onclick="myfunction('f')" class="experiencia2">Experiencia en otros ámbitos (temporada veraniega)</a>
+            <div id="f" class="fondo">
+            <p>Camarero en ElCorteIngles.</p>
+            <p>Barman en Residencia Militar del ejército de tierra.</p>
+            <p>Barman y Camarero en Pubs.</p>
+            </div>
+        </div>
       </div>
       <div class="info-rrss">
         <ul class="rrss">
@@ -47,5 +87,6 @@
         </ul>
       </div>
     </div>
+    <script src="CV.js"></script>
   </body>
 </html>

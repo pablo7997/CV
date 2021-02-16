@@ -12,13 +12,13 @@ html {
   }
   
   .info-container {
-    /* display: flex;  */
+    display: flex; 
     /* justify-content: space-evenly; */
   }
   
   .info-rrss {
     background-color: rgb(22, 175, 168);
-    /* min-height: 100px; */
+    min-height: 100px;
   
   }
   
@@ -33,7 +33,7 @@ html {
   }
   
   .rrss a {
-    color: rgb(243, 171, 171);
+    color: rgb(235, 63, 63);
     text-decoration: none;
   }
   
@@ -67,3 +67,59 @@ html {
       margin-left: 30px;
     }
   }
+
+    .cuerpo {
+        background-color: rgb(184, 140, 88);
+    }
+
+    .experiencia {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .formacion {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .aptitudes {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .investigaciones {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .actitudes {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .experiencia2 {
+        font-size: xx-large;
+        color: rgb(206, 222, 135);
+    }
+
+    .fondo {
+        display: none;
+        background-color: rgb(22, 175, 168);
+    }
+
+    .fotografia {
+        width: 200px;
+    }
+
+    #video_background {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        min-width: 100%;
+        min-height: 200%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+        }
+        
